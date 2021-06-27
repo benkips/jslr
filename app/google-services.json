@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "924597999831",
+    "firebase_url": "https://livetv-36919.firebaseio.com",
+    "project_id": "livetv-36919",
+    "storage_bucket": "livetv-36919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924597999831:android:3b74aebf3183c766697892",
+        "android_client_info": {
+          "package_name": "com.mabnets.e_newskenya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924597999831-u5hai76ho9gp7foo6pc4jhhg6f798som.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvK_eCT3ZEFvg4NCH3ekPmam8uTuKFPbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924597999831-u5hai76ho9gp7foo6pc4jhhg6f798som.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924597999831:android:3609d15adc1079fe697892",
+        "android_client_info": {
+          "package_name": "com.mabnets.jslradio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924597999831-u5hai76ho9gp7foo6pc4jhhg6f798som.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvK_eCT3ZEFvg4NCH3ekPmam8uTuKFPbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924597999831-u5hai76ho9gp7foo6pc4jhhg6f798som.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924597999831:android:e660ea422a67c7a9697892",
+        "android_client_info": {
+          "package_name": "com.mabnets.livekenyantv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924597999831-u5hai76ho9gp7foo6pc4jhhg6f798som.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvK_eCT3ZEFvg4NCH3ekPmam8uTuKFPbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924597999831-u5hai76ho9gp7foo6pc4jhhg6f798som.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

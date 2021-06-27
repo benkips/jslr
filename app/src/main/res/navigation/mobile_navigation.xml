@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/launcher">
+
+    <fragment
+        android:id="@+id/launcher"
+        android:name="com.mabnets.jslradio.fragments.Launcher"
+        android:label="fragment_launcher"
+        tools:layout="@layout/fragment_launcher" >
+        <action
+            android:id="@+id/action_launcher_to_mainfragment"
+            app:destination="@id/mainfragment"
+            app:popUpTo="@id/launcher"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/mainfragment"
+        android:name="com.mabnets.jslradio.fragments.mainfragment"
+        android:label="fragment_mainfragment"
+        tools:layout="@layout/fragment_mainfragment">
+        <action
+            android:id="@+id/action_mainfragment_to_wvinfo"
+            app:destination="@id/wvinfo" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/wvinfo"
+        android:name="com.mabnets.jslradio.fragments.wvinfo"
+        android:label="fragment_wvinfo"
+        tools:layout="@layout/fragment_wvinfo" />
+</navigation>
