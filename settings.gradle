@@ -1,2 +1,3 @@
 rootProject.name = "jslradio"
 include ':app'
+include ':playerlib'

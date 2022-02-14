@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.alltimemsg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_8sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/sname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:text=""
+                android:textSize="@dimen/_20sdp" />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <ProgressBar
+                android:id="@+id/pgbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+
+
+            <LinearLayout
+                android:id="@+id/media_controller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="4dip">
+
+                    <ImageButton
+                        android:id="@+id/btnPlay"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/playbtnbackground"
+                        style="@android:style/MediaButton.Play" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/fullscreen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="-7dp"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="10dip"
+                        android:paddingTop="4dip"
+                        android:paddingRight="4dip"
+                        android:paddingBottom="4dip" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/banner_containertwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            />
+        <Button
+            android:id="@+id/mrradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="more radio links"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_25sdp"/>
+    </LinearLayout>
+</LinearLayout>

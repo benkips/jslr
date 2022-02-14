@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_mainfragment_to_wvinfo"
             app:destination="@id/wvinfo" />
+        <action
+            android:id="@+id/action_mainfragment_to_alltimemsg"
+            app:destination="@id/alltimemsg" />
 
     </fragment>
     <fragment
@@ -31,4 +34,9 @@
         android:name="com.mabnets.jslradio.fragments.wvinfo"
         android:label="fragment_wvinfo"
         tools:layout="@layout/fragment_wvinfo" />
+    <fragment
+        android:id="@+id/alltimemsg"
+        android:name="com.mabnets.jslradio.fragments.alltimemsg"
+        android:label="fragment_alltimemsg"
+        tools:layout="@layout/fragment_alltimemsg" />
 </navigation>
