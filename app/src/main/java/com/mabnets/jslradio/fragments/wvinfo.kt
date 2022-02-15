@@ -194,9 +194,10 @@ class wvinfo : Fragment(R.layout.fragment_wvinfo) {
                 }
             }
         }
+        //for ads
         adView = AdView(context)
         binding.bannerContainertwo.addView(adView)
-        adView.adUnitId = "ca-app-pub-3940256099942544/6300978111"
+        adView.adUnitId = "ca-app-pub-4814079884774543/3165545505"
 
         adView.adSize = adSize
         val adRequest = AdRequest
@@ -206,6 +207,7 @@ class wvinfo : Fragment(R.layout.fragment_wvinfo) {
         adView.loadAd(adRequest)
 
     }
+    //forads
     private val adSize: AdSize
         get() {
             val display =activity?.windowManager!!.defaultDisplay

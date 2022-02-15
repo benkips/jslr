@@ -18,11 +18,13 @@ import com.google.firebase.messaging.FirebaseMessaging
 import com.mabnets.jslradio.Utils.showPermissionRequestExplanation
 import com.mabnets.jslradio.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+@RequiresApi(Build.VERSION_CODES.M)
+class MainActivity : AppCompatActivity(){
     private lateinit var binding: ActivityMainBinding
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var requestPermissionLauncher: ActivityResultLauncher<String>
     val TOPIC="Alertstwo"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)

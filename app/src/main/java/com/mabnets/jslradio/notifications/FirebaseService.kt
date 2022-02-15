@@ -39,7 +39,6 @@ class FirebaseService:FirebaseMessagingService() {
 
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         if(message.data.get("image").equals("none")){
-
             val pendingIntent=this.gotomy(R.id.mainfragment)
             val notification=wordnotification(pendingIntent,message.data.get("title"),message.data.get("message"))
             notificationmanager.notify(notificationID, notification)
