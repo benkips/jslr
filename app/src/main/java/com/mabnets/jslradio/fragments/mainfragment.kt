@@ -46,7 +46,8 @@ class mainfragment : Fragment(R.layout.fragment_mainfragment) ,AnkoLogger {
             Navigation.findNavController(view).navigate(R.id.wvinfo, bundleOf("web" to c))
         }
         binding.content.altimesmssgs.setOnClickListener { view ->
-            Navigation.findNavController(view).navigate(R.id.alltimemsg)
+            val c = "http://node-15.zeno.fm/gmdx1sb97f8uv?rj-ttl=5&rj-tok=AAABfccRdpIA8mopC5CghSrEoA"
+            Navigation.findNavController(view).navigate(R.id.wvinfo, bundleOf("web" to c))
         }
 
         val urls="https://s3.radio.co/s97f38db97/listen"
